@@ -1,0 +1,26 @@
+.image92Icon {
+  height: 61.4px;
+  width: 88.9px;
+  position: relative;
+  object-fit: cover;
+}
+.letNextcentDo {
+  width: 831.5px;
+  position: relative;
+  line-height: 58.99px;
+  display: none;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) 0 0;
+  gap: var(--gap-3xs-9);
+  text-align: left;
+  font-size: var(--font-size-lgi-8);
+  color: var(--default-white);
+  font-family: var(--body-regular-body-3);
+}

@@ -1,0 +1,402 @@
+.touch {
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: var(--brand-primary);
+}
+.forAnyInquiries,
+.getInTouchContainer {
+  align-self: stretch;
+  position: relative;
+}
+.forAnyInquiries {
+  font-size: var(--font-size-xs-3);
+  letter-spacing: 0.01em;
+  line-height: 19.4px;
+  font-family: var(--font-poppins);
+}
+.contactFormHeading,
+.contactFormTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactFormTitle {
+  gap: var(--gap-base);
+}
+.contactFormHeading {
+  flex-shrink: 0;
+}
+.inputPlaceholders,
+.name {
+  position: relative;
+  font-size: var(--font-size-xs-3);
+  letter-spacing: 0.01em;
+  font-family: var(--h5);
+  text-align: left;
+  display: inline-block;
+}
+.name {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 20px;
+  flex: 1;
+  line-height: 19.4px;
+  color: var(--gray-3);
+  min-width: 23px;
+  padding: 0;
+}
+.inputPlaceholders {
+  line-height: 20px;
+  color: var(--red);
+  min-width: 5px;
+}
+.textFieldChild {
+  height: 4.8px;
+  width: 9.7px;
+  position: relative;
+  object-fit: contain;
+  display: none;
+}
+.textField {
+  align-self: stretch;
+  border: 0.8px solid var(--gray-5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-355xl) var(--padding-4xs)
+    var(--padding-base);
+  gap: var(--gap-4xs-1);
+}
+.email {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--h5);
+  font-size: var(--font-size-xs-3);
+  background-color: transparent;
+  height: 20px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 19.4px;
+  color: var(--gray-3);
+  text-align: left;
+  display: inline-block;
+  min-width: 21px;
+  padding: 0;
+}
+.textField1 {
+  align-self: stretch;
+  border: 0.8px solid var(--gray-5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-358xl) var(--padding-4xs)
+    var(--padding-base);
+  gap: var(--gap-4xs-1);
+}
+.phoneNumber {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--h5);
+  font-size: var(--font-size-xs-3);
+  background-color: transparent;
+  height: 20px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 19.4px;
+  color: var(--gray-3);
+  text-align: left;
+  display: inline-block;
+  min-width: 57px;
+  padding: 0;
+}
+.textField2 {
+  align-self: stretch;
+  border: 0.8px solid var(--gray-5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-303xl) var(--padding-4xs)
+    var(--padding-base);
+  gap: var(--gap-4xs-1);
+}
+.send {
+  position: relative;
+  font-size: var(--font-size-smi-9);
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--h5);
+  color: var(--default-white);
+  text-align: left;
+  min-width: 39px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi-2) var(--padding-xl);
+  background-color: var(--color-lightslategray);
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-slategray);
+}
+.contactFormFields,
+.contactFormInputArea {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactFormFields {
+  margin: 0;
+  gap: var(--gap-base-2);
+}
+.contactFormInputArea {
+  gap: var(--gap-13xl-3);
+}
+.instagramWhiteIcon {
+  height: 17.9px;
+  width: 21.1px;
+  position: relative;
+  object-fit: cover;
+}
+.instagram {
+  margin: 0;
+  font-weight: 600;
+}
+.divineTravelexperience {
+  margin: 0;
+}
+.instagramDivineTravelexperie {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 12.77px;
+}
+.socialMediaIcons {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-6);
+  min-width: 86px;
+  cursor: pointer;
+}
+.whatsappWhiteIcon {
+  height: 17.9px;
+  width: 21.2px;
+  position: relative;
+  object-fit: cover;
+}
+.socialMediaIcons1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-6);
+  cursor: pointer;
+}
+.socialMediaIconsChild {
+  height: 17.9px;
+  width: 17.9px;
+  position: relative;
+}
+.socialMediaIcons2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-6);
+  min-width: 82px;
+  cursor: pointer;
+}
+.contactFormColumn,
+.socialMedia {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.socialMedia {
+  width: 422.7px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-12xl-9);
+  font-size: var(--font-size-4xs-3);
+}
+.contactFormColumn {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-29xl-5);
+}
+.contactFormRow {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  min-width: 299px;
+  max-width: 100%;
+}
+.elmapMarkerIcon {
+  height: 40.4px;
+  width: 40.4px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.component6,
+.contactFormWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.component6 {
+  width: 440.5px;
+  justify-content: center;
+  padding: var(--padding-243xl-7) var(--padding-xl);
+  box-sizing: border-box;
+  background-image: url(/component-6@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 440.5px;
+}
+.contactFormWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.contactFormContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-45xl) var(--padding-14xl) var(--padding-79xl);
+  box-sizing: border-box;
+  min-height: 728px;
+  max-width: calc(100% - 265px);
+}
+.contactUsChild {
+  height: 727.5px;
+  width: 264.6px;
+  position: relative;
+  background-color: var(--color-darkslategray-200);
+}
+.contactUs,
+.designContactUs {
+  background-color: var(--default-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.contactUs {
+  width: 1269.8px;
+  box-shadow: 0 114px 161.67px -64.67px rgba(25, 58, 75, 0.3);
+  border-radius: 40.42px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.designContactUs {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: var(--padding-113xl) var(--padding-lg) var(--padding-100xl-5);
+  margin-top: -2px;
+  text-align: left;
+  font-size: var(--font-size-24xl-6);
+  color: var(--black);
+  font-family: var(--h5);
+}
+@media screen and (max-width: 1100px) {
+  .component6,
+  .elmapMarkerIcon {
+    flex: 1;
+  }
+  .contactFormWrapper {
+    flex-wrap: wrap;
+  }
+  .contactFormContainer {
+    max-width: 100%;
+  }
+  .contactUsChild {
+    display: none;
+  }
+  .designContactUs {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .getInTouchContainer {
+    font-size: var(--font-size-16xl);
+  }
+  .inputPlaceholders {
+    width: 100%;
+    height: 5px;
+  }
+  .socialMedia,
+  .textField,
+  .textField1,
+  .textField2 {
+    flex-wrap: wrap;
+  }
+  .component6,
+  .contactFormContainer {
+    padding-top: var(--padding-113xl);
+    box-sizing: border-box;
+  }
+  .component6 {
+    padding-bottom: var(--padding-152xl);
+    min-width: 100%;
+  }
+  .contactFormContainer {
+    padding-bottom: var(--padding-45xl);
+  }
+  .designContactUs {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getInTouchContainer {
+    font-size: var(--font-size-7xl);
+  }
+  .textField,
+  .textField1,
+  .textField2 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .contactFormInputArea,
+  .socialMedia {
+    gap: var(--gap-base);
+  }
+  .contactFormColumn {
+    gap: var(--gap-5xl);
+  }
+}

@@ -1,0 +1,228 @@
+.allRightsReserved {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.copyright {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--body-regular-body-3-size);
+  color: var(--neutral-silver);
+}
+.socialIcons {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+}
+.companyInfo,
+.socialLinks {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.companyInfo {
+  width: 350px;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  min-width: 350px;
+  max-width: 100%;
+}
+.home,
+.quickLinks {
+  align-self: stretch;
+  position: relative;
+}
+.quickLinks {
+  margin: 0;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.home {
+  text-decoration: none;
+  line-height: 20px;
+  color: inherit;
+}
+.col1,
+.listItems {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listItems {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  font-size: var(--body-regular-body-3-size);
+  color: var(--neutral-silver);
+}
+.col1 {
+  width: 160px;
+  flex-shrink: 0;
+  gap: var(--gap-5xl);
+}
+.contactDetailsList,
+.infodivinetravelcoza {
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.contactDetailsList {
+  align-self: stretch;
+}
+.makeABooking {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.inputFieldBg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-400);
+}
+.yourEmailAddress {
+  width: 127px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-regular-body-3);
+  font-size: var(--body-regular-body-3-size);
+  background-color: transparent;
+  height: 20px;
+  position: relative;
+  line-height: 20px;
+  color: var(--text-gray-300);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.essentialIconsSend {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sendButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.emailInputField {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-xs) var(--padding-2xs);
+  position: relative;
+  gap: var(--gap-xl);
+}
+.col3,
+.emailInputField,
+.footerBig5,
+.links {
+  display: flex;
+  align-items: flex-start;
+}
+.col3 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 166px;
+}
+.footerBig5,
+.links {
+  flex-direction: row;
+  flex-shrink: 0;
+}
+.links {
+  width: 635px;
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  min-width: 635px;
+  max-width: 100%;
+  font-size: var(--heading-headline-4-size);
+}
+.footerBig5 {
+  align-self: stretch;
+  background-color: var(--neutral-black);
+  justify-content: space-between;
+  padding: var(--padding-45xl) var(--padding-78xl) var(--padding-9xl-6)
+    var(--padding-146xl);
+  box-sizing: border-box;
+  max-width: 102%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lgi-8);
+  color: var(--default-white);
+  font-family: var(--body-regular-body-3);
+}
+@media screen and (max-width: 1275px) {
+  .companyInfo,
+  .links {
+    flex: 1;
+  }
+  .footerBig5 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .links {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .companyInfo {
+    min-width: 100%;
+  }
+  .links {
+    flex-wrap: wrap;
+  }
+  .footerBig5 {
+    padding-left: var(--padding-63xl);
+    padding-right: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .companyInfo {
+    gap: var(--gap-xl);
+  }
+  .makeABooking,
+  .quickLinks {
+    font-size: var(--h5-size);
+    line-height: 22px;
+  }
+  .footerBig5 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

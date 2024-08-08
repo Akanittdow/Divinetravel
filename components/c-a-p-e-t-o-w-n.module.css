@@ -1,0 +1,123 @@
+.capeTown1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: var(--body-regular-body-3);
+}
+.unsplash7uxn7nudorcIcon {
+  align-self: stretch;
+  height: 239px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.depositR1000 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 77px;
+}
+.label {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lightcyan);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+  white-space: nowrap;
+}
+.dec2024 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 92.4px;
+  font-weight: 500;
+  color: var(--color-gray-300);
+}
+.info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl) 0 var(--padding-10xs);
+  position: relative;
+  gap: var(--gap-base);
+  font-size: var(--font-size-2xs);
+  color: var(--color-darkcyan);
+}
+.bookNow,
+.r10800person {
+  position: relative;
+  font-weight: 500;
+}
+.bookNow {
+  font-size: var(--body-regular-body-3-size);
+  font-family: var(--font-poppins);
+  color: var(--default-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 72.4px;
+}
+.btn,
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.btn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-base);
+  background-color: var(--brand-primary);
+  border-radius: var(--br-21xl);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.btn:hover {
+  background-color: var(--color-steelblue-100);
+}
+.price {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--body-size);
+  color: var(--color-gray-300);
+}
+.capeTown {
+  width: 357px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-31xl);
+  background-color: var(--default-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 339px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--siah);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .capeTown1 {
+    font-size: var(--font-size-lgi);
+  }
+  .price {
+    flex-wrap: wrap;
+  }
+  .capeTown {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}

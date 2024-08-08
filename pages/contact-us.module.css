@@ -1,0 +1,604 @@
+.packages {
+  margin: 0 !important;
+  width: 682.2px;
+  position: absolute;
+  top: 0;
+  left: -104.1px;
+  font-size: inherit;
+  line-height: 76px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.heroSection,
+.packagesText {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.packagesText {
+  height: 76px;
+  width: 474px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  z-index: 2;
+}
+.heroSection {
+  flex: 1;
+  background-color: var(--color-whitesmoke-300);
+  padding: var(--padding-82xl) 408px;
+  box-sizing: border-box;
+}
+.bg,
+.heroSection,
+.navbarParent,
+.packagesFront {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bg {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  background-image: url(/bg2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.navbarParent,
+.packagesFront {
+  align-self: stretch;
+}
+.packagesFront {
+  background-color: var(--default-white);
+  flex-direction: row;
+  align-items: flex-start;
+  flex-shrink: 0;
+  z-index: 1;
+  margin-top: -2px;
+}
+.navbarParent {
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--heading-headline-1-size);
+  color: var(--brand-primary);
+  font-family: var(--body-regular-body-3);
+}
+.element2Icon {
+  height: 191px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.followTheseSimple {
+  margin: 0;
+}
+.followTheseSimpleContainer1 {
+  width: 100%;
+}
+.followTheseSimpleContainer {
+  width: 556px;
+  margin: 0 !important;
+  right: -80.4px;
+  bottom: 14.2px;
+  line-height: 24px;
+  align-items: center;
+  z-index: 1;
+}
+.bookingIntro,
+.followTheseSimpleContainer,
+.readyToEmbark {
+  position: absolute;
+  display: flex;
+}
+.bookingIntro {
+  top: 0;
+  left: 0;
+  width: 785px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.readyToEmbark {
+  margin: 0;
+  top: 52.8px;
+  left: 354.9px;
+  font-size: var(--font-size-11xl);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: var(--font-bebas-neue);
+  color: var(--brand-primary);
+  align-items: center;
+  justify-content: center;
+  width: 465px;
+  z-index: 1;
+}
+.bookingStepsRow {
+  height: 191px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.bookingStepsContainer1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  position: absolute;
+  top: 33.2px;
+  left: 33.2px;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 4, 4, 0),
+    rgba(245, 247, 255, 0.2)
+  );
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.receiptIcon {
+  position: absolute;
+  top: 7.6px;
+  left: 7.6px;
+  width: 18px;
+  height: 18px;
+  z-index: 1;
+}
+.ellipseParent {
+  height: 33.2px;
+  width: 33.2px;
+  position: relative;
+}
+.explorePackagesWrapperInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-30xl) 0 var(--padding-31xl);
+}
+.explorePackages {
+  align-self: stretch;
+  position: relative;
+  line-height: 17px;
+  font-weight: 600;
+}
+.packages2 {
+  text-decoration: underline;
+}
+.packages1 {
+  color: inherit;
+}
+.browseAndChooseContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xs-9);
+  letter-spacing: -0.04px;
+  font-family: var(--font-poppins);
+}
+.explorePackagesWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 7.1px;
+}
+.frameItem {
+  align-self: stretch;
+  height: 18.2px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.explorePackagesContainer,
+.explorePackagesContainerInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.explorePackagesContainerInner {
+  flex: 0.8853;
+  flex-direction: column;
+  padding: var(--padding-4xs-8) var(--padding-5xs);
+}
+.explorePackagesContainer {
+  width: 271.8px;
+  flex-direction: row;
+}
+.timerStartIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+.submitRequestRow {
+  width: 33.2px;
+  height: 33.2px;
+  border-radius: 16.61px;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 4, 4, 0),
+    rgba(245, 247, 255, 0.2)
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 7.6px var(--padding-6xs);
+  box-sizing: border-box;
+}
+.submitYourBooking {
+  position: relative;
+  line-height: 17px;
+  font-weight: 600;
+}
+.submitRequestHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs-8) var(--padding-5xs);
+}
+.clickOnThe {
+  width: 132.3px;
+  position: relative;
+  font-size: var(--font-size-5xs-9);
+  display: inline-block;
+}
+.submitRequestTitle,
+.submitRequestWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.submitRequestTitle {
+  padding: 0;
+}
+.submitRequestWrapper {
+  gap: 0.9px;
+}
+.submitRequestContainerChild {
+  height: 18.2px;
+  width: 121.9px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -121.9px;
+  z-index: 1;
+}
+.submitRequestContainer,
+.submitRequestContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.submitRequestContainer {
+  filter: drop-shadow(0 4.5px 11.26px rgba(122, 122, 122, 0.08));
+  border-radius: 11.26px;
+  flex-direction: row;
+  padding: 18.5px var(--padding-11xs) 19.2px 0;
+  position: relative;
+}
+.submitRequestContainerWrapper {
+  flex: 1;
+  flex-direction: column;
+  min-width: 207px;
+}
+.makePaymentIcon,
+.paymentIcon {
+  margin: 0 !important;
+  position: absolute;
+}
+.paymentIcon {
+  height: 33.2px;
+  width: 33.2px;
+  top: 6.2px;
+  left: 38.5px;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 4, 4, 0),
+    rgba(245, 247, 255, 0.2)
+  );
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.makePaymentIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6.1px var(--padding-xs) 11.6px var(--padding-8xs);
+  box-sizing: border-box;
+}
+.iconCreditCard {
+  height: 12.7px;
+  width: 18.5px;
+  position: relative;
+  z-index: 1;
+}
+.makePaymentRow {
+  width: 50.9px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  gap: 8.820959091186523px;
+}
+.makePayment {
+  position: relative;
+  line-height: 17px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 88px;
+}
+.makePaymentTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs-8) var(--padding-5xs);
+  z-index: 2;
+}
+.makePaymentWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) var(--padding-12xs-1);
+}
+.onceYourBooking {
+  flex: 1;
+  position: relative;
+}
+.makePaymentDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8.9px var(--padding-5xs) 8.7px;
+  z-index: 3;
+  margin-top: -8.8px;
+  text-align: center;
+  font-size: var(--font-size-5xs-9);
+}
+.makePaymentContainer,
+.stepThree {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.makePaymentContainer {
+  align-self: stretch;
+  width: 150px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-12xs-1);
+}
+.stepThree {
+  height: 146.4px;
+  width: 197.1px;
+  filter: drop-shadow(0 4.5px 11.26px rgba(122, 122, 122, 0.08));
+  border-radius: 11.26px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1.8px var(--padding-base) var(--padding-xl-3);
+  position: relative;
+  text-align: left;
+}
+.bookingStepsContainer,
+.stepOne {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.stepOne {
+  width: 788px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.1px;
+  font-size: var(--font-size-xs-3);
+  color: var(--brand-primary);
+}
+.bookingStepsContainer {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-31xl);
+}
+.checkIcon {
+  position: absolute;
+  top: 33.2px;
+  right: -33.2px;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 4, 4, 0),
+    rgba(245, 247, 255, 0.2)
+  );
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.iconCheck {
+  position: absolute;
+  height: 53.61%;
+  width: 54.52%;
+  top: 23.19%;
+  right: 22.59%;
+  bottom: 23.19%;
+  left: 22.89%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.stepFourContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-37xl) 0 var(--padding-42xl);
+}
+.receiveConfirmation {
+  position: relative;
+  line-height: 17px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 127px;
+}
+.confirmationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.afterThePayment {
+  width: 136px;
+  position: relative;
+  font-size: var(--font-size-5xs-9);
+  text-align: center;
+  display: inline-block;
+}
+.bookingProcess,
+.stepFour {
+  display: flex;
+  justify-content: flex-start;
+}
+.stepFour {
+  filter: drop-shadow(0 4.5px 11.26px rgba(122, 122, 122, 0.08));
+  border-radius: 11.26px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-xl-3) var(--padding-4xl) 19.9px;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-xs-3);
+  color: var(--brand-primary);
+}
+.bookingProcess {
+  align-self: stretch;
+  background-color: var(--color-ghostwhite);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: var(--padding-10xl) 111px 179.6px var(--padding-83xl);
+  box-sizing: border-box;
+  gap: 121.9px;
+  max-width: 100%;
+}
+.bookingProcessParent,
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bookingProcessParent {
+  align-self: stretch;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--h5-size);
+  color: rgba(16, 88, 119, 0.7);
+  font-family: var(--h5);
+}
+.contactUs {
+  width: 100%;
+  position: relative;
+  background-color: var(--default-white);
+  overflow: hidden;
+  gap: var(--gap-xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .heroSection {
+    padding-left: var(--padding-185xl);
+    padding-right: var(--padding-185xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .bookingStepsContainer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .packages {
+    font-size: var(--font-size-32xl);
+    line-height: 61px;
+  }
+  .heroSection {
+    gap: var(--gap-33xl);
+    padding-left: var(--padding-83xl);
+    padding-right: var(--padding-83xl);
+    box-sizing: border-box;
+  }
+  .bg {
+    gap: var(--gap-xl);
+  }
+  .readyToEmbark {
+    font-size: var(--font-size-5xl);
+  }
+  .stepOne {
+    flex-wrap: wrap;
+  }
+  .bookingProcess {
+    gap: 61px;
+    padding: var(--padding-xl) var(--padding-36xl) 117px var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .packages {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+  .heroSection {
+    gap: var(--gap-7xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .readyToEmbark {
+    font-size: var(--body-size);
+  }
+  .bookingStepsContainer {
+    gap: var(--gap-6xl);
+  }
+  .bookingProcess {
+    gap: var(--gap-11xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

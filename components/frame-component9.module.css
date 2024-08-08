@@ -1,0 +1,458 @@
+.mauritius1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.unsplash7uxn7nudorcIcon {
+  width: 556.1px;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.portLouisAnd,
+.r37000 {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.portLouisAnd {
+  margin: 0;
+  width: 482.9px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  max-width: 100%;
+}
+.r37000 {
+  height: 43.9px;
+  width: 118.9px;
+  white-space: nowrap;
+}
+.pps {
+  line-height: 17.1px;
+}
+.depositR5000,
+.pps {
+  align-self: stretch;
+  position: relative;
+  text-transform: uppercase;
+}
+.mauritiusDepositLabel {
+  width: 117px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  flex-shrink: 0;
+  font-size: var(--font-size-2xl-1);
+}
+.mauritiusDeposit,
+.price {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.mauritiusDeposit {
+  width: 239px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-4xl);
+}
+.price {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-5xs-1) var(--padding-22xl) 0;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-21xl);
+  color: var(--brand-primary);
+  font-family: var(--font-bebas-neue);
+}
+.travelDates2428 {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: inline-block;
+  height: 100%;
+}
+.info {
+  width: 310px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-size: var(--h5-size);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}
+.packageIncludes {
+  position: relative;
+  line-height: 52px;
+  font-weight: 500;
+}
+.bathIcon {
+  height: 22.2px;
+  width: 20px;
+  position: relative;
+}
+.bath,
+.bathWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bathWrapper {
+  box-shadow: 4.7px 4.7px 4.14px rgba(0, 0, 0, 0.22);
+  border-radius: 5.17px;
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: var(--padding-3xs-7) var(--padding-6xs);
+}
+.bath {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.glassAndBottleOfWineIcon {
+  height: 22.4px;
+  width: 13.8px;
+  position: relative;
+}
+.glassAndBottleOfWineWrapper {
+  box-shadow: 4.7px 4.7px 4.14px rgba(0, 0, 0, 0.22);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-6) var(--padding-3xs);
+}
+.frameChild {
+  width: 14.9px;
+  height: 9.6px;
+  position: relative;
+}
+.wifiInner {
+  box-shadow: 4.7px 4.7px 4.14px rgba(0, 0, 0, 0.22);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-3xs) var(--padding-lg)
+    var(--padding-4xs);
+}
+.clocks1Icon {
+  width: 18.9px;
+  height: 13px;
+  position: relative;
+}
+.clocks1Wrapper {
+  box-shadow: 4.7px 4.7px 4.14px rgba(0, 0, 0, 0.22);
+  border-radius: 5.17px;
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-6xs) var(--padding-mini-6)
+    var(--padding-5xs);
+}
+.gym {
+  align-self: stretch;
+  height: 20.3px;
+  position: relative;
+  line-height: 13.44px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.mauritiusAmenities,
+.price1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mauritiusAmenities {
+  width: 182px;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-4xs-3);
+  color: var(--color-lightslategray);
+  font-family: var(--body-regular-body-3);
+}
+.price1 {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 var(--padding-172xl);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-mini);
+  color: var(--color-steelblue-200);
+  font-family: var(--h5);
+}
+.baseIcon {
+  height: 18px;
+  width: 14.7px;
+  position: relative;
+  object-fit: cover;
+}
+.rdPartyIntegratio {
+  height: 21.7px;
+  flex: 1;
+  position: relative;
+  line-height: 14.48px;
+  display: inline-block;
+  backdrop-filter: blur(5.17px);
+}
+.integrationSet {
+  width: 193.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.rdPartyIntegratio1 {
+  height: 21.7px;
+  position: relative;
+  line-height: 14.48px;
+  display: inline-block;
+  backdrop-filter: blur(5.17px);
+}
+.integrationSet1 {
+  justify-content: flex-start;
+  gap: var(--gap-3xs-6);
+}
+.baseParent,
+.integrationRow,
+.integrationSet1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.integrationRow {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0;
+  gap: var(--gap-xl);
+}
+.baseParent {
+  width: 193.6px;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  flex-shrink: 0;
+}
+.rdPartyIntegratio3 {
+  height: 30px;
+  flex: 1;
+  position: relative;
+  line-height: 14.48px;
+  display: inline-block;
+  backdrop-filter: blur(5.17px);
+}
+.baseGroup {
+  width: 204.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+}
+.integrationRow1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-87xl);
+}
+.frameDiv,
+.integrationRow1,
+.integrationRow2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameDiv {
+  width: 144.4px;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.integrationRow2 {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 var(--padding-29xl) 0 0;
+  gap: var(--gap-xl);
+}
+.integrationRowParent {
+  width: 492px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs-1);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  font-size: var(--font-size-smi-9);
+  color: var(--color-darkslategray-100);
+}
+.arrowG002Icon,
+.navigationChild {
+  height: 38.1px;
+  width: 121.9px;
+  position: relative;
+  object-fit: contain;
+  cursor: pointer;
+}
+.arrowG002Icon {
+  height: 54.6px;
+  width: 65.2px;
+  border-radius: 22.33px;
+}
+.navigation,
+.price2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navigation {
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.price2 {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.mauritius,
+.mauritiusWrapper,
+.mozambique {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mozambique {
+  width: 968px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-ghostwhite);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-13xl);
+  gap: var(--gap-5xl);
+}
+.mauritius,
+.mauritiusWrapper {
+  flex-direction: row;
+}
+.mauritius {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-21xl-5) var(--padding-xl);
+}
+.mauritiusWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--siah);
+  font-family: var(--body-regular-body-3);
+}
+@media screen and (max-width: 1100px) {
+  .price,
+  .price1 {
+    flex-wrap: wrap;
+  }
+  .price1 {
+    padding-left: var(--padding-76xl);
+    padding-right: var(--padding-76xl);
+    box-sizing: border-box;
+  }
+  .mauritius,
+  .mozambique {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .mauritius {
+    gap: var(--gap-19xl);
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .portLouisAnd,
+  .r37000 {
+    font-size: var(--font-size-13xl);
+  }
+  .integrationRow {
+    flex-wrap: wrap;
+  }
+  .integrationRow1 {
+    flex-wrap: wrap;
+    gap: var(--gap-34xl);
+  }
+  .integrationRow2 {
+    flex-wrap: wrap;
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .mauritius {
+    gap: var(--gap-lgi);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mauritius1 {
+    font-size: var(--font-size-lgi);
+  }
+  .portLouisAnd,
+  .r37000 {
+    font-size: var(--font-size-5xl);
+  }
+  .pps {
+    line-height: 14px;
+  }
+  .depositR5000,
+  .pps {
+    font-size: var(--font-size-mid);
+  }
+  .price1 {
+    padding-left: var(--padding-28xl);
+    padding-right: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+  .integrationRow1 {
+    gap: var(--gap-7xl);
+  }
+  .mozambique {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,92 @@
+.packages {
+  margin: 0;
+  width: 399.5px;
+  position: relative;
+  font-size: inherit;
+  line-height: 76px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 112%;
+}
+.heroSection,
+.packagesText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.packagesText {
+  width: 358px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.heroSection {
+  flex: 1;
+  background-color: var(--color-whitesmoke-300);
+  justify-content: center;
+  padding: 99px var(--padding-xl) 103px var(--padding-2xl);
+  box-sizing: border-box;
+}
+.about,
+.bg,
+.khensaniParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.bg {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  background-image: url(/bg1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--heading-headline-1-size);
+  color: var(--brand-primary);
+  font-family: var(--body-regular-body-3);
+}
+.about,
+.khensaniParent {
+  flex-direction: column;
+}
+.khensaniParent {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.about {
+  width: 100%;
+  position: relative;
+  background-color: var(--default-white);
+  overflow: hidden;
+  align-items: flex-end;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 800px) {
+  .packages {
+    font-size: var(--font-size-32xl);
+    line-height: 61px;
+  }
+  .bg {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .packages {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+  .heroSection {
+    gap: var(--gap-33xl);
+  }
+}

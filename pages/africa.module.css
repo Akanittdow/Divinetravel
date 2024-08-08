@@ -1,0 +1,40 @@
+.namibiaWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.lesothoPackage1 {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-base);
+  max-width: 102%;
+  flex-shrink: 0;
+}
+.africa,
+.lesothoPackage,
+.lesothoPackage1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.lesothoPackage {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.africa {
+  width: 100%;
+  position: relative;
+  background-color: var(--default-white);
+  overflow: hidden;
+  align-items: flex-end;
+  line-height: normal;
+  letter-spacing: normal;
+}
