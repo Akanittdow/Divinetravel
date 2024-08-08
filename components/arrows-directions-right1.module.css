@@ -1,0 +1,8 @@
+.arrowsDirectionsright {
+  width: 16px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 16px;
+  object-fit: contain;
+}

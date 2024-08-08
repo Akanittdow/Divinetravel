@@ -1,0 +1,18 @@
+.label {
+  position: relative;
+  line-height: 20px;
+}
+.typeprimarySizemediumSta {
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--brand-primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-13xl);
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--default-white);
+  font-family: var(--body-regular-body-3);
+}

@@ -1,0 +1,25 @@
+.label {
+  position: relative;
+  line-height: 20px;
+}
+.arrowsDirectionsright {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  object-fit: contain;
+}
+.typeprimarySizemediumSta {
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--brand-primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-13xl);
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--default-white);
+  font-family: var(--body-regular-body-3);
+}
